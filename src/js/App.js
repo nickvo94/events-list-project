@@ -13,7 +13,7 @@ class App extends React.Component {
 
   componentDidMount() {
     console.log('COMPONENT DID MOUNT.....');
-        var targetUrl = 'http://localhost:3006/events/'
+        var targetUrl = '/events/'
         fetch(targetUrl, {
           method: 'GET',
           headers: {
