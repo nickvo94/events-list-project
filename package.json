@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "watch": "npm-watch",
     "dev:build-server": "NODE_ENV=development webpack --config webpack.server.js --mode=development -w",
-    "dev:start": "nodemon ./server-build/index.js serve -s build",
+    "dev:start": "nodemon ./server-build/index.js",
     "dev": "npm-run-all --parallel build dev:*"
   },
   "watch": {
