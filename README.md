@@ -1,3 +1,23 @@
+# Event apllication
+
+[Event application page link](https://event-list-project.herokuapp.com/event)
+
+## Installizing locally and the components
+
+- Main components: React App and Express  
+- Node modules : run npm install 
+- Run : npm start
+
+## Application functionality
+
+- App only display the events of the current week
+- Current week logic in this app is from the closet Sunday to the next one
+- There is serverside for app with Express
+- App uses MyHelsinki Open API
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
